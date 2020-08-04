@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SurveyForm</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="title">Survey Form</h1>
+            <p id="description ">Help us to improve our community by filing this survey form.</p>
+        </div>
+            <div class="box">
+                <br>
+                <form id="survey-form">
+                    <label for="name" id="name-label">Name:  </label><br>
+                    <input type="name" id="name" class="spac" placeholder="enter your name" required >
+                    <br>
+                    <label for="email" id="email-label ">Email: </label><br>
+                    <input type="email" id="email" class="spac" placeholder="enter your email" required >
+                    <br>
+                    <label for="number" id="number-label">Number:</label><br>
+                    <input type="number" id="number" class="spac" placeholder="enter your number" maxlength="10" required >
+                    <br>
+                    <p id="radio">Select your Gender:</p>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label><br>
+                    
+                    <br>
+                    <label for="dropdown" id="dropdown">Select your class:</label>
+                    <select name="dropdown" id="dropdown">
+                        <option value="class1">Class I</option>
+                        <option value="class2">Class II</option>
+                        <option value="class3">Class III</option>
+                        <option value="class4">Class IV</option>
+                    </select><br>
+
+                    <p id="check">Select the domains you are interested in:</p>
+                    <input type="checkbox" name="check" id="checkbox" value="01">
+                    <label for="checkbox">Web Development</label><br>
+                    <input type="checkbox" name="check" id="checkbox" value="02">
+                    <label for="checkbox">Artificial Intelligence</label><br>
+                    <input type="checkbox" name="check" id="checkbox" value="03">
+                    <label for="checkbox">Machine Learning</label><br>
+                    <input type="checkbox" name="check" id="checkbox" value="04">
+                    <label for="checkbox">Internet of Things</label><br>
+                    <input type="checkbox" name="check" id="checkbox" value="05">
+                    <label for="checkbox">Mobile Services</label><br>
+                    <br>
+
+                    <label for="textarea">Any Queries, Write to us:</label><br>
+                    <textarea id="textarea" rows="4" cols="47"></textarea>
+                    <br>
+                    <br>
+                    <button class="btn">Submit</button>
+
+                
+                </form>
+            </div>
+      
+
+    </body>
+</html>
